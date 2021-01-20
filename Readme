@@ -1,3 +1,5 @@
+!!!never run: test_gui.py!!!
+
 ***Create database and pip install package**********
 ********MongoDB*********
 use itproger
