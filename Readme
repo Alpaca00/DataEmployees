@@ -1,4 +1,4 @@
-!!!never run: test_gui.py!!!
+!!!Never run unless the scripts are modified: test_gui.py!!!
 
 ***Create database and pip install package**********
 ********MongoDB*********
