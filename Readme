@@ -1,0 +1,12 @@
+***Create database and pip install package**********
+********MongoDB*********
+use itproger
+createCollection("employees")
+db.employees.createIndexes({[{'phone':1},{'email':1}],{unique: true}})
+
+*********Python****************
+****Module******
+pip install PyQt5
+pip install pymongo
+
+
