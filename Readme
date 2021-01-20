@@ -7,7 +7,7 @@ createCollection("employees")
 db.employees.createIndexes({[{'phone':1},{'email':1}],{unique: true}})
 
 *********Python****************
-****Module******
+****Modules******
 pip install PyQt5
 pip install pymongo
 
