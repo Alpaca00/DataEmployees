@@ -3,7 +3,8 @@
 ***Create database and pip install package**********
 ********MongoDB*********
 use itproger
-createCollection("employees")
+createCollection("employees", {autoIndexId: true})
+db.employees.insertOne({'name': 'Roger', 'surname': 'Federer', 'phone': '3702881212', 'email': 'federer@gmail.com, 'address': 'Basel, Switzerland'})
 db.employees.createIndexes({[{'phone':1},{'email':1}],{unique: true}})
 
 *********Python****************
