@@ -1,7 +1,7 @@
-***Create database and pip install package**********
+----Create database and pip install package----
 
 
-********MongoDB*********
+----MongoDB----
 
 
 use itproger
