@@ -32,7 +32,7 @@ pyautogui.press('enter')
 
 
 sleep(1)
-pyautogui.typewrite('python3 main.py', interval=0.1)
+pyautogui.typewrite('python3 app.py', interval=0.1)
 pyautogui.press('enter')
 
 
