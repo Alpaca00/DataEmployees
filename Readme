@@ -1,0 +1,15 @@
+!!!Never run unless the scripts are modified: test_gui.py!!!
+
+***Create database and pip install package**********
+********MongoDB*********
+use itproger
+createCollection("employees", {autoIndexId: true})
+db.employees.insertOne({'name': 'Roger', 'surname': 'Federer', 'phone': '3702881212', 'email': 'federer@gmail.com, 'address': 'Basel, Switzerland'})
+db.employees.createIndexes({[{'phone':1},{'email':1}],{unique: true}})
+
+*********Python****************
+****Modules******
+pip install PyQt5
+pip install pymongo
+
+
