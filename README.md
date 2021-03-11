@@ -13,14 +13,12 @@ db.employees.insertOne({'name': 'Roger', 'surname': 'Federer', 'phone': '3702881
 db.employees.createIndex({'phone':1, 'email':1}, {unique: true})
 
 
-<img src="" alt=""/>
+<img src="https://github.com/Alpaca00/DataEmployees/blob/main/img/home.png" alt="home"/>
 
-<img src="" alt=""/>
+<img src="https://github.com/Alpaca00/DataEmployees/blob/main/img/last.png" alt="last"/>
 
-<img src="" alt=""/>
+<img src="https://github.com/Alpaca00/DataEmployees/blob/main/img/add.png" alt="add"/>
 
-<img src="" alt=""/>
+<img src="https://github.com/Alpaca00/DataEmployees/blob/main/img/update.png" alt="update"/>
 
-<img src="" alt=""/>
 
-<img src="" alt=""/>
