@@ -1,16 +1,21 @@
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 
 ----MongoDB----
 https://docs.mongodb.com/manual/installation/
 
-use itproger
+--Сreate a database of names "itproger".-- 
+> use itproger
 
-createCollection("employees", {autoIndexId: true})
+--Before launch application you must to create collection for correct work.--
 
-db.employees.insertOne({'name': 'John', 'surname': 'Doe', 'phone': '+1234567890', 'email': 'johndoe@gmail.com', 'address': 'undefined, undefined'})
+> createCollection("employees", {autoIndexId: true})
 
-db.employees.createIndex({'phone':1, 'email':1}, {unique: true})
+--Insert one person into the collection.--
+> db.employees.insertOne({'name': 'John', 'surname': 'Doe', 'phone': '+1234567890', 'email': 'johndoe@gmail.com', 'address': 'undefined, undefined'})
+
+--Create the index to display and search any person correctly.--
+> db.employees.createIndex({'phone':1, 'email':1}, {unique: true})
 
 
 <img src="https://github.com/Alpaca00/DataEmployees/blob/main/img/home.png" alt="home"/>
