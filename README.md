@@ -1,14 +1,14 @@
-----Create database and pip install package----
+pip install -r requirements.txt
 
 
 ----MongoDB----
-
+https://docs.mongodb.com/manual/installation/
 
 use itproger
 
 createCollection("employees", {autoIndexId: true})
 
-db.employees.insertOne({'name': 'Roger', 'surname': 'Federer', 'phone': '3702881212', 'email': 'federer@gmail.com', 'address': 'Basel, Switzerland'})
+db.employees.insertOne({'name': 'John', 'surname': 'Doe', 'phone': '+1234567890', 'email': 'johndoe@gmail.com', 'address': 'undefined, undefined'})
 
 db.employees.createIndex({'phone':1, 'email':1}, {unique: true})
 
